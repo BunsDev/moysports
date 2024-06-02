@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+}
+ 
+.HomePage-header{
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.connect-wallet-button {
+  top: 20px;
+  right: 20px; 
+}
+
+.connect-wallet-button button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  /* Blue color, you can change it */
+  color: #fff;
+  /* White text color */
+  border: none;
+  border-radius: 5px;  
+  cursor: pointer;
+} 
+.connect-wallet-button button:hover {
+  background-color: #0056b3; 
+  /* Darker shade of blue on hover */
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.list {
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.list-item {
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+
+.view-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.list-item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+th{ 
+  color: white; 
+}
+
+.list-item-data{
+  margin: 0;
+  color: white;
+}
+
+.table_data {
+  margin: auto; 
+  background-color: #ffffff47;
+  padding: 10px;
+}
+
+th {
+  border-bottom: 1px solid black;
+  padding:5px 50px 5px 50px; /* Only right padding*/
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+td {
+  text-align: center;
+}
+ 

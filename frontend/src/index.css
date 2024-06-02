@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+.loadImage{
+  position: absolute;
+  top: 0;
+  left: 0; 
+  margin: 0;
+  padding: 0;
+  background-image: url('/Users/dr.mac/Desktop/hackathon/sport_bet_central/frontend/public/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  filter: blur(0px); /* Adjust the blur intensity */
+  z-index: -2; /* Place it behind other content */
+}
+.overlayShade{
+  position: absolute;
+  top: 0;
+  left: 0; 
+  margin: 0;
+  padding: 0;
+  background-color: #0000008f; 
+  height: 100vh;
+  width: 100vw;
+  z-index: -1; /* Place it behind other content */
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
