@@ -31,7 +31,7 @@ app.get('/get_games', (req, res) => {
         res.status(200).send(_games);
     } catch (error) {
         console.error('Error fetching games:', error);
-        res.status(500).json({ error: 'Internal Server Error' });
+        res.status(500).json({ error: 'Internal Server Error' }); 
     }
 });
 
