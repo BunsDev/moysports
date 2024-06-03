@@ -27,8 +27,7 @@ app.get('/get_games', (req, res) => {
     try {
         res.setHeader('Content-Type', 'application/json');
         res.setHeader('Cache-Control', 'no-cache'); 
-        const _games = ['Chelsea 1 vs Liverpool1', 100000000000000, Math.floor((Date.now() + 2 * 60 * 1000) / 1000)]; 
-        console.log("..............get_games");
+        const _games = ['Chelsea vs Liverpool', 100000000000000, Math.floor((Date.now() + 2 * 60 * 1000) / 1000)];  
         res.status(200).send(_games);
     } catch (error) {
         console.error('Error fetching games:', error);
